@@ -1,0 +1,72 @@
+/* Sfondo e font */
+body{
+  font-family: verdana;
+  background: url(img/background.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+}
+
+/* Contenitore auto-adattante */
+.container{
+  background-color: rgba(0, 0, 0, 0.5);
+  width: 800px;
+  margin: auto;
+  height: auto;
+  padding: 50px;
+  border-radius: 15px;
+}
+
+/* Logo + frase */
+header{
+  color: limegreen;
+  text-align: center;
+  font-size: 15px;
+}
+
+/* Logo dimensioni */
+#logo{
+  width: 170px;
+}
+
+/* Sfondo tasti */
+nav{
+  background-color: limegreen;
+  height: 30px;
+  padding-top: 9px;
+}
+
+/* Colore testo del corpo */
+main{
+  color: white;
+}
+
+/* Nomi monopattini */
+main h2{
+  display: inline-block;
+  font-size: 20px;
+  margin-bottom: 5px;
+}
+
+/* Livelli di carica */
+#caricamedia{
+  width: 300px;
+  height: 20px;
+  background-color: orange;
+  border-radius: 5px;
+}
+
+#caricaalta{
+  width: 500px;
+  height: 20px;
+  background-color: limegreen;
+  border-radius: 5px;
+}
+
+#caricabassa{
+  width: 140px;
+  height: 20px;
+  background-color: tomato;
+  border-radius: 5px;
+}
